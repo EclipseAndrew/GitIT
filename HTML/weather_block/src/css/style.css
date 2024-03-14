@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  /* background: rgb(236, 236, 165); */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+ 
+    
+    background: linear-gradient(to bottom, #ee4f4f, #0707be);
+    height: 100vh; 
+}
+
+
+
+/* hr {
+  border: 1px solid rgb(0, 0, 0);
+} */
+
+.header {
+    margin: 30px 0 0 50px;
+}
+.container_of_weather {
+  margin: 100px 100px;
+  height: 300px;
+  width: 200px;
+  color: rgb(198, 237, 22);
+  border: 3px solid rgb(104, 207, 130);
+  /* border-radius: 10%; */
+  /* background-color: rgb(227, 229, 229); */
+   /* background-image: url('../images/00ac0296be655321ad26929ce3959462.jpg'); */
+   background: linear-gradient(to bottom, #e49797, #08084b);
+   background-size: cover;
+   background-position: center;
+     font-family: "Pacifico", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.flex-container {
+    display: flex; 
+    /* align-items: baseline; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.block {
+  margin: 0 auto;
+  width: 180px;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.city {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.deg {
+    padding-bottom: 10px;
+}
+
+.icon {
+  padding-top: 5px;
+}
+
+.description {
+    font-size: 18px;
+}
+
+.right-clicker, .left-clicker {
+    cursor: pointer;
+}
+

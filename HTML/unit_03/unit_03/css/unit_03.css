@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: Impact, serif;
+  text-align: center;
+  margin: 40px 0;
+}
+
+p,
+ul {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+.img-description {
+  font-style: italic;
+  margin: 20 0 30;
+  text-align: center;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-bold {
+  font-weight: 800;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.img-article {
+  max-width: 80%;
+  margin: 0 auto;
+  display: block;
+}

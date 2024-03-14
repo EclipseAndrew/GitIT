@@ -1,0 +1,72 @@
+.container {
+  width: 100%;
+}
+
+section {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #444;
+}
+
+.block {
+  width: 75px;
+  height: 75px;
+  margin: 25px;
+  border: 2px solid #333;
+}
+
+.out-11 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.keyboard {
+  width: 48px;
+  height: 48px;
+  border: 1px solid black;
+  margin: 15px;
+  border-radius: 6px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.keyboard[data="space"] {
+  width: 112px;
+}
+
+.active {
+  background: orange;
+}
+
+.hide {
+  display: none;
+}
+
+.block-10 {
+  width: 75px;
+  height: 75px;
+  background: orangered;
+  margin: 5px;
+}
+.out-1,
+.out-2,
+.out-3,
+.out-4,
+.out-5,
+.out-6,
+.out-7,
+.out-8,
+.out-9,
+.out-10,
+.out-11,
+.out-12,
+.out-13,
+.out-14,
+.out-15,
+.out-16,
+.out-17,
+.out-18,
+.out-19,
+.out-20 {
+  color: white !important;
+}

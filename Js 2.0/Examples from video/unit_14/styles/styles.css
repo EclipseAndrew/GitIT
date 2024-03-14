@@ -1,0 +1,131 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v26-latin-regular.woff2') format('woff2');
+}
+
+/* montserrat-700 - latin */
+@font-face {
+    font-display: swap; /
+font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v26-latin-700.woff2') format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f3f5f9;
+}
+
+.greeting-text {
+    margin-bottom: 70px;
+}
+
+.wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.list {
+    max-width: 300px;
+    width: 100%;
+    padding: 13px 0 13px 13px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 110%;
+    border-radius: 5px;
+    border: 1px solid midnightblue;
+    margin-bottom: 30px;
+
+}
+
+.weather {
+    max-width: 1000px;
+    width: 100%;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+    color: #1c2130;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 40px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.out {
+    margin-bottom: 25px;
+    color: #19206e;
+}
+
+.out p {
+    margin-bottom: 10px;
+}
+
+.out p:last-child {
+    margin-bottom: 0;
+}
+
+.city {
+    color: deepskyblue;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 110%;
+    margin-bottom: 25px;
+}
+
+.temperature {
+    font-weight: 700;
+    font-size: 60px;;
+    line-height: 64px;
+}
+
+.icon {
+    margin-bottom: 10px;
+}
+
+.description,
+.wind-direction,
+.wind-speed,
+.pressure {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 110%;
+    color: black;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 500;
+    background: #082ff2;
+    border-color: #082ff2;
+    padding: 17px 20px;
+    color: #fff;
+    transition: color .5s ease 0s, background-color .5s ease 0s, border-color .5s ease 0s;
+    border-radius: 4px;
+    box-shadow: 0 0 15px 2px #082FF2;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #2196f3;
+    border-color: #2196f3;
+}

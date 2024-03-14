@@ -1,0 +1,47 @@
+
+html, body {
+   margin: 0, auto;
+}
+
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+
+   margin: 10px;
+   width: 500px;
+   
+   border: 2px solid rgb(14, 14, 14);
+   border-radius: 2%;
+   background-color: rgb(250, 237, 237);
+
+}
+.clouds {
+   text-align: center;
+   color: black;
+}
+.info {
+   border : 1px solid green;
+   border-radius: 2%;
+   box-shadow: lightyellow;
+}
+
+
+ 
+.city-name {
+
+   width: 250px;
+   margin-top: 20px;
+}
+ 
+
+
+.out {
+   
+   margin-top: 20px;
+ 
+   font-size: 30px;
+   font-weight: 400;
+}
