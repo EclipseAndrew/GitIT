@@ -183,10 +183,6 @@ function generateMonth() {
 }
 const month = generateMonth();
 
-console.log(generateMonth(3)); 
+// console.log(generateMonth(3)); 
 
-console.log(month(2)); 
-
-
-
-
+// console.log(month(2)); 
